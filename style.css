@@ -216,6 +216,10 @@ input[type="radio"]{
     font-size: 13px;
 }
 
+.content p:nth-child(2){
+    padding-top: 15px;
+}
+
 /* ------- footer -----------  */
 .footer{
     padding:50px 15% 10px;
@@ -311,5 +315,9 @@ input[type="radio"]{
     }
     label::after{
         font-size: 22px;
+    }
+
+    .content p:nth-child(2){
+        padding-top: 10px;
     }
 }
